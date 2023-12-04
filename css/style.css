@@ -1,0 +1,153 @@
+@font-face {
+  font-family: "AktivGrotesk";
+  src: url(../fonts/AktivGrotesk_W_Rg.woff) format("woff");
+}
+
+body{
+ margin:0px;
+ font-family:"AktivGrotesk", sans-serif;
+ }
+ 
+ table.notesTable{
+ 	border-top: 0px solid #FFFFFF;
+	border-bottom: 3px solid #383838;
+	border-left: 3px solid #383838;
+	border-right: 3px solid #383838;
+	width: 600px;
+    vertical-align: middle;
+ }
+ 
+ 
+  table.headerTable{
+  	border-top: 3px solid #383838;
+	border-bottom: 0px solid #FFFFFF;
+	border-left: 3px solid #383838;
+	border-right: 3px solid #383838;
+	width: 600px;
+    vertical-align: middle;
+	table-layout: fixed;
+	border-collapse: collapse;
+ }
+
+input[type=text], select {
+ width: 100%;
+ border-radius: 5px;
+ margin: 7px 0;
+ border: 1px solid #383838;
+ padding: 14px 18px; 
+ display: inline-block;
+ box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+ background-color: #C0C0C0;
+}
+
+textarea, select {
+ width: 100%;
+ border-radius: 5px;
+ margin: 7px 0;
+ border: 1px solid #262626;
+ padding: 14px 18px; 
+ display: inline-block;
+ box-sizing: border-box;
+ resize: none;
+}
+
+input[type=submit] {
+ width: 100%;
+ border: none;
+ color: white;
+ padding: 14px 20px;
+ background-color: #000000;
+ cursor: pointer;
+ border-radius: 4px;
+ font-weight: bold;
+ 
+}
+
+.segmented-control {
+    display: table;
+    width: 100%;
+    padding: 0;
+}
+
+.segmented-control__item_2:hover {
+ background-color: #262626;
+ color: #C0C0C0;
+}
+
+.segmented-control__item_1 {
+    display: table-cell;
+	width: 300px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+	background-color:#FFF;
+	color:#000;
+}
+
+.segmented-control__item_2 {
+    display: table-cell;
+	width: 300px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+	background-color:#000;
+    color:#FFF;
+}
+
+.segmented-control__input {
+    position: absolute;
+    visibility: hidden;
+}
+
+.segmented-control__label {
+    display: block;
+    margin: 0 -1px -1px 0; /* -1px margin removes double-thickness borders between items */
+    padding: 1em .25em;
+    font: 20px; 
+    text-align: center;  
+    cursor: pointer;
+	border-top: 1px solid #383838;
+}
+
+.segmented-control__input:checked + .segmented-control__label {
+    background: #FFF;
+    color: #FFF; 
+}
+
+#printButton {
+    background: url('../images/Print.png') no-repeat; 
+	background-size: 25px 25px;
+	background-position: center;
+	border: 1px solid #000000;
+	height:40px;
+	width:40px;
+}
+
+#backButton {
+    background: url('../images/Back.png') no-repeat;
+	background-size: 25px 25px;
+	background-position: center;
+	border: 1px solid #000000;
+	height:40px;
+	width:40px;
+}
+
+#printButton:hover {
+ background-color: #262626;
+}
+
+#backButton:hover {
+ background-color: #262626;
+}
+
+.headerBG {
+	background-color:#000;
+}
+
+tr.noBorder td {
+    margin: 0;
+    padding: 0;
+}
