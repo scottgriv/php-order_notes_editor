@@ -21,7 +21,8 @@
 
 <h1 align="center">Order Notes Editor</h1>
 
-Add, edit, and delete order notes in bulk using a `PHP` script and `MySQL` database. This website is designed to fix the issue of not being able to paste multiple lines of text into notes fields in mainframe applications that restrict pasting text.
+A webapp designed to fix the issue of not being able to paste multiple lines of text into notes fields into ERP applications that restrict pasting text.
+Add, edit, and delete order notes in bulk using a `PHP` script and `MySQL` database (or any other database of your choice).
 
 <div align="center">
     <img src="./docs/images/demo_1.png" width="50%" />
@@ -45,6 +46,9 @@ Add, edit, and delete order notes in bulk using a `PHP` script and `MySQL` datab
 - [Credits](#credits)
 
 ## Getting Started
+
+> ![TIP]
+> By default, the application uses `mysqli` to connect to a `MySQL` database. You can use any database you want by changing the connection method in the `config.php` file (to `odbc`, `pdo`, etc. for example).
 
 This project is designed to be run on a local server. You can use [XAMPP](https://www.apachefriends.org/index.html) to run a local server on your machine.
 
