@@ -91,7 +91,7 @@
  		<img src="./images/logo.png" height="200" width="200" align="center" />
  	</div>
  	<tr>
- 		<h3 align="center"><b>Please enter a open and valid Order Number to access the notes.</b></h3>
+ 		<h3 align="center"><b>Please enter an open and valid order number to access the notes.</b></h3>
  	</tr>
  	<br>
  	<form action="" method="post">
@@ -111,7 +111,7 @@
 		$order = $_POST["order"] ?? '';
 
 		if ($order == '') {
-			echo "<br><b><center><td align=\"center\"><font face='Verdana, Arial, Helvetica' size='3' color='black'>Please enter an order number and click submit.</font></span></td></center></b>";
+			echo "<br><b><center><td align=\"center\"><font face='Verdana, Arial, Helvetica' size='3' color='black'>Please enter an open and valid order number and click submit.</font></span></td></center></b>";
 		} else {
 			if (!is_numeric($order)) {
 				echo "<br><b><center><td align=\"center\"><font face='Verdana, Arial, Helvetica' size='3' color='red'>Invalid characters entered, please enter numeric values only.</font></span></td></center></b>";
