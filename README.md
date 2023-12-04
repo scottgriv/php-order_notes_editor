@@ -21,7 +21,8 @@
 
 <h1 align="center">Order Notes Editor</h1>
 
-A webapp designed to fix the issue of not being able to paste multiple lines of text into notes fields into ERP applications that restrict pasting text.
+This webapp solves a specific problem with ERP applications - the inability to paste multiple lines of text into note fields. It allows users to easily paste and manage multiline text, overcoming the limitations commonly found in ERP systems. This tool focuses on simplicity and efficiency, making it ideal for enhancing data entry and note-taking within enterprise applications. 
+
 Add, edit, and delete order notes in bulk using a `PHP` script and `MySQL` database (or any other database of your choice).
 
 <div align="center">
