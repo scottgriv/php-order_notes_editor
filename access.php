@@ -111,7 +111,7 @@
 		$order = $_POST["order"] ?? '';
 
 		if ($order == '') {
-			echo "<br><b><center><td align=\"center\"><font face='Verdana, Arial, Helvetica' size='3' color='black'>An order should be open and valid to access the notes.</font></span></td></center></b>";
+			echo "<br><b><center><td align=\"center\"><font face='Verdana, Arial, Helvetica' size='3' color='black'>Note: An order should be open and valid to access the notes.</font></span></td></center></b>";
 		} else {
 			if (!is_numeric($order)) {
 				echo "<br><b><center><td align=\"center\"><font face='Verdana, Arial, Helvetica' size='3' color='red'>Invalid characters entered, please enter numeric values only.</font></span></td></center></b>";
