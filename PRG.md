@@ -12,7 +12,7 @@ This file is used to connect this repository to the **PRG** project categorizati
 
 ## Project Information
 
-**Repository Tier:** Bronze <br>
+**Repository Tier:** Silver <br>
 **Technology:** PHP, HTML, CSS, MySQL, JavaScript, XAMPP <br>
 **Category:** Web Application <br>
 **Order:** 13 <br>
