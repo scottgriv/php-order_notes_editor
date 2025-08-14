@@ -48,7 +48,7 @@ Add, edit, and delete order notes in bulk using a `PHP` script and `MySQL` datab
 
 ## Getting Started
 
-> ![TIP]
+> [!TIP]
 > By default, the application uses `mysqli` to connect to a `MySQL` database. You can use any database you want by changing the connection method in the `config.php` file (to `odbc`, `pdo`, etc. for example).
 
 This project is designed to be run on a local server. You can use [XAMPP](https://www.apachefriends.org/index.html) to run a local server on your machine.
